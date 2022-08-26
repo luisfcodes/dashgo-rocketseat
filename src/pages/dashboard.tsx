@@ -73,7 +73,7 @@ export default function Dashboard(){
             <Text fontSize="lg" mb="4">Inscritos da semana</Text>
             <Chart options={options} series={series} type="area" height="160"/>
           </Box>
-          <Box p="8" bg="gray.800" borderRadius="8">
+          <Box p="8" bg="gray.800" borderRadius="8" pb="4">
             <Text fontSize="lg" mb="4">Taxa de abertura</Text>
             <Chart options={options} series={series} type="area" height="160"/>
           </Box>
